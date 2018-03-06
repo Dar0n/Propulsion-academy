@@ -226,8 +226,6 @@ print(exp_loop(2,4))
 def exp_recursive(base,exp):
     if exp == 0:
         return 1
-    elif exp == 1:
-        return base
     else:
         return base*exp_recursive(base,exp-1)
 
@@ -342,14 +340,14 @@ print_dictionary()
 
 # Function to make all possible permutations from a given collection of numbers
 
-permutations = []
-
-
-def permute(lst):
-    result = []
-    for i in
-
-print(permute([1,2,3]))
+# permutations = []
+#
+#
+# def permute(lst):
+#     result = []
+#     for i in
+#
+# print(permute([1,2,3]))
 
 
 
